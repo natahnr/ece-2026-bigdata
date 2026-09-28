@@ -1,7 +1,7 @@
 import argparse
 
 from faker import Faker
-from serialize import serialize
+from work.serialize import serialize
 
 
 fake = Faker()

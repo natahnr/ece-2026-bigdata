@@ -5,7 +5,7 @@ from faker import Faker
 from faker.providers import DynamicProvider
 
 from dataset_users import users_generate
-from serialize import serialize
+from work.serialize import serialize
 
 fake = Faker()
 # Generate the same data set
