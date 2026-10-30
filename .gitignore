@@ -1,2 +1,5 @@
 *.csv
 __pycache__/
+*.duckdb
+init.sql
+*.duckdb.wal

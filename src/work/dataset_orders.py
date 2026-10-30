@@ -12,7 +12,7 @@ fake = Faker()
 Faker.seed(42)
 products = DynamicProvider(
     provider_name="producs",
-    elements=["bread", "brioche", "cookie", "croissant", "donuts", "dring"],
+    elements=["bread", "brioche", "cookie", "croissant", "donut", "drink"],
 )
 fake.add_provider(products)
 
